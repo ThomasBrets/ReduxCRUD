@@ -82,7 +82,7 @@ const TaskForm = () => {
               placeholder="title"
               onChange={handleChange}
               value={task.title}
-              className="rounded-md"
+              className="rounded-md w-full p-2 bg-zinc-600"
             />
 
             <h2 className="font-bold text-[18px] text-center text-yellow-400">
@@ -94,7 +94,7 @@ const TaskForm = () => {
               placeholder="description"
               onChange={handleChange}
               value={task.description}
-              className="rounded-md"
+              className="rounded-md p-2 bg-zinc-600"
             ></textarea>
             <button type="submit" className="btn bg-gray-400 rounded-lg mt-4">
               Save
